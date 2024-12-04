@@ -7,7 +7,40 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <h1>Welcome to this page</h1>
+    <div class="container">
+      <header>
+        <form action="">
+          <input
+            type="search"
+            placeholder="Enter a city"
+            required
+            class="search-value"
+          />
+          <input type="submit" value="search" class="search-button" />
+        </form>
+      </header>
+      <main>
+        <div class="weather-condition">
+          <div>
+            <h1>Paris</h1>
+            <p>
+              Wednesday 14:21, broken clouds <br />Humidity:
+              <span id="hum" class="strong">94%</span> , Wind:
+              <span id="speed" class="strong"> 3.09km/h</span>
+            </p>
+          </div>
+          <div>
+            <span class="emoji">⛅</span><span class="temp-value">14</span
+            ><span class="degree">℃</span>
+          </div>
+        </div>
+      </main>
+
+      <footer>
+        This project was coded by <a href=""> Anyanwu Divine</a>, is open
+        sourced on <a href="">Github</a> and is hosted on <a href="">Netlify</a>
+      </footer>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
